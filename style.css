@@ -1,0 +1,160 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, serif;
+    line-height: 1.6;
+    background-color: #fb963d;
+   
+}
+
+header {
+    border-radius: 15px 50px 30px;
+    background-color: #B9480B;
+    color: black;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+.hero {
+    background: url('food-background.jpg') no-repeat center center/cover;
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero .btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #ff4e3d;
+}
+li a:link {
+            display: block;
+ 	    color: black;
+ 	    padding: 10px;
+ 	    text-decoration: none;
+}
+
+li a:visited {
+ 	color: black;
+}
+
+li a:hover {
+ 	background-color: #fb963d;
+ 	color: white;
+}
+
+li a.active {
+	background-color: #B9480B;
+ 	color: black;
+}
+ul {
+ list-style-type: none;
+ margin: 10;
+ padding: 5;
+ background-color: #B9480B;
+ overflow: hidden;
+}
+li{
+ float: left;
+}
+img.ps {
+  margin:20px;
+  padding: 3px;
+  outline:2px solid #DDD;
+  border:#a1a1a1;
+  float:right;
+	-webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+img.ps:hover {
+	cursor:pointer;
+    margin-top: 5px;
+}
+img.s {
+  margin:20px;
+  padding: 3px;
+  outline:2px solid #DDD;
+  border:#a1a1a1;
+  transform: rotate(-20deg);
+  float:right;
+	-webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+img.s:hover {
+	cursor:pointer;
+    margin-top: 5px;
+}
+#home {
+  width: 46px;
+  height: 44px;
+  background: url(Images/img_navsprites_hover.gif) 0 0;
+}
+
+#next {
+  width: 43px;
+  height: 44px;
+  background: url(Images/img_navsprites_hover.gif) -91px 0;
+}
+
+img.hover {
+  margin:20px;
+  padding: 3px;
+  outline:2px solid #DDD;
+  border:#a1a1a1;
+  float:left;
+	-webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+img.hover:hover {
+	cursor:pointer;
+    margin-top: 5px;
+}
+footer {
+    background-color: #B9480B;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+#home:hover {
+  background: url(Images/img_navsprites_hover.gif) 0 -45px;
+}
+
+#next:hover {
+  background: url(Images/img_navsprites_hover.gif) -91px -45px;
+}
